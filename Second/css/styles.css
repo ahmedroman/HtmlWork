@@ -1,0 +1,268 @@
+
+body,header,.navbar{
+	margin:0;
+}
+h1,h2,h3,h4,p{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,p,li,span{
+	color:white;
+}
+@media (max-width: 1600px){
+	.container {
+    width: 940px;	
+	}
+	.navbar-form .input-group{
+	margin-top:8px;
+	}
+}
+@media (max-width: 778px){
+	.container {
+		width: auto;
+	}
+	.navbar-form .input-group{
+	margin-top:0;
+	}
+}
+@media (max-width: 576px){
+	.container {
+    width: auto;
+	}
+	
+}
+.navbar{
+	border-radius:0;
+}
+.main-body-area .fa,
+.bottom-body-area .fa
+{
+	margin-right:10px;
+}
+header nav ul li a{
+	text-transform:uppercase;
+}
+.visibility-hidden{
+	visibility:hidden;
+}
+.navbar-form{
+	margin:0;
+	margin-right:10px;
+}
+
+.navbar-form input{
+	max-width:130px;
+}
+.user-info h3{
+	font-weight:600;
+	font-size:2.2em;
+	margin:0;
+}
+.user-info ul{
+	padding:10px 0;
+}
+.user-info ul li{
+	padding-right:10px;
+}
+.user-info a{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+.user-info span{
+	color:#01EBF8;
+}
+.user-info ul li p{
+	border-right:1px solid rgb(100,100,100);
+	padding-right:10px;
+	font-size:1.4em;
+}
+.user-info ul li .last-item{
+	border:none;
+}
+
+
+.user-info ul li .list-header{
+	font-style:italic;
+	font-size:.6em;
+	display:block;
+}
+.user-info img{
+	margin:10px 10px 10px 0;
+	max-width:100%;
+	border:8px solid rgb(255,255,255);
+}
+.user-info a > span{
+	margin-left:37px;
+	font-style:italic;
+}
+
+.body-header > a{
+	color:#01EBF8;
+		float:right;
+}
+.profile-description{
+	padding-right:30px;
+}
+.profile-description ul{
+	padding:0;
+}
+.profile-description ul li{
+	font-size:1.3em;
+}
+.profile-description ul li span{
+	font-size:.6em;
+	font-style:italic;
+	display:block;
+	color:#01EBF8;
+}
+.profile-description h4{
+	color:#01EBF8;
+	font-size:1.1em;
+	font-style:italic;
+	margin:20px 0 0 0;
+}
+.profile-description p{
+	font-size:1em;
+	 word-wrap: break-word;
+}
+.main-body-area{
+	background-color:rgba(50,50,50,1);
+}
+.user-info{
+}
+.profile-description{
+	margin:60px 0 0 10px;
+	padding-left:20px;
+	border-left:1px solid white;
+}
+.bottom-body-area{
+	background-color:#1A1A1A;
+}
+.video-area{
+	background-color:#353535;
+}
+.video-area h2{
+	font-size:1.7em;
+	text-align:center;
+	padding:5px 0;
+}
+.video-area section{
+	background-color:white;
+}
+.video-area img{
+	margin:0;
+	padding:0;
+	height:180px;
+}
+.video-area ul{
+	height:180px;
+	background-color:white;
+}
+.video-area li{
+	display:block;
+	color:black;
+	text-align:center;
+	font-size:1.2em;
+}
+.video-area ul li p{
+	padding-top:0px;
+	color:black;
+}
+.video-area h3{
+	word-break:break-word;
+	margin-bottom:3px;
+	background-color:#39B74B;
+}
+.video-area li span{
+	display:block;
+	color:rgb(100,100,100);
+	font-size:.8em;
+}
+.video-area section{
+	display:block;
+}
+.video-area p,
+.bottom-body-area p{
+	padding:0 5px 5px 5px;
+	font-style:italic;
+	color:#00E5F2;
+	
+}
+
+
+.video-area-right section ul li h3{
+	background-color:#9F005F;
+}
+
+.bottom-body-area{
+	padding-bottom:50px;
+}
+.bottom-body-area h1{
+	padding:20px 3px;
+	font-size:2.1em;
+}
+footer .navbar{
+
+}
+footer .navbar-inverse{
+	border-radius:0;
+	border:none;
+	background-color:#010101;
+}
+footer .navbar ul li a{
+	letter-spacing:-1px;
+}
+footer .navbar-brand{
+	margin-bottom:-10px;
+}
+footer .navbar-header .navbar-text{
+	margin-top:0;
+}
+footer .navbar-header .navbar-brand{
+	font-size:1.4em;
+	padding-bottom:0;
+}
+footer .navbar .navbar-nav,
+footer .navbar .navbar-nav li a{
+	line-height:70px;
+}
+footer .icons{
+	margin-right:20px;
+}
+footer .icons li ,
+footer .icons li a
+{
+	padding:12px 0 0 7px;
+}
+footer .icons i{
+	text-align:center;
+	line-height:40px;
+	border-radius:40px;
+	height:40px;
+	width:40px;
+	background-color:#302F35;
+	font-size:1.1em;
+	color:white;
+}
+footer .icons i:hover{
+	color:black;
+	background-color:white;
+	
+}
+.body-header a{
+	min-height:30px;
+	background-color:rgba(10,10,10,.2);
+}
+
+.body-header a:first-child{
+	padding-right:15px;
+	padding-top:3px;
+}
+.body-header a:last-child{
+	font-size:1.3em;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
