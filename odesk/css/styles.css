@@ -258,7 +258,7 @@ a[data-toggle="collapse"]:focus{
 	margin-bottom:10px;
 	text-align:left;
 }
-.circlehover{
+.circle:hover{
 	color:white;
 	background-color:rgba(50,50,50,.7);
 }
