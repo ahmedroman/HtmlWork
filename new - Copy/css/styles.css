@@ -7,6 +7,18 @@
 h1,h2,h3,h4,h5{
 	margin:0;
 }
+
+.navbar-default{
+	background-color:transparent;
+}
+.navbar .nav{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.navbar-brand{
+	padding:0;
+	height:70px;
+}
 .main h2{
 	text-align:center;
 	font-size:1.4em;
