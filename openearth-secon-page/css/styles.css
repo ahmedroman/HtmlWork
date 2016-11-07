@@ -1,0 +1,152 @@
+.navbar{
+	margin:0;
+	padding:0;
+	border-radius:0;
+	border:none;
+}
+h1,h2,h3,h4,h5,p{
+	color:#5C5B5C;
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+
+header{
+	margin-top:20px;
+	padding-bottom:5px;
+	border-bottom:1px solid rgba(100,100,100,.3);
+}
+header .header-aside a{
+	text-decoration:none;
+	color:#5C5B5C;
+	font-size:.9em;
+	letter-spacing:-.5px;
+}
+header .header-aside a i{
+	line-height:.5;
+	font-size:2.2em;
+	padding-right:10px;
+	position:relative;
+	bottom:-5px;
+}
+@media (min-width:993px){
+		header .header-aside a{
+		position:relative;
+		bottom:-15px;
+	}
+}
+header .main-header p i{
+	font-size:3em;
+	padding-right:30px;
+}
+header .main-header p{
+	display:inline-block;
+}
+header .main-header h4 span{
+	display:block;
+	font-size:.8em;
+	font-weight:400;
+}
+header .main-header h4{
+	font-size:1.35em;
+	display:inline-block;
+}
+.navigation-header .list-inline li{
+	font-weight:500;
+	padding-right:15px;
+}
+.navigation-header .list-inline{
+	margin-bottom:0;
+}
+.navigation-header{
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid rgba(100,100,100,.3);
+}
+.filter{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.filter div > a{
+	text-decoration:none;
+	color:black;
+	font-size:1em;
+	font-weight:600;
+	padding-right:15px;
+}
+.filter div > a > span{
+	font-weight:400;
+	padding-left:10px;
+	font-size:.9em;
+	color:rgba(100,100,100,1);
+}
+.main-body{
+	margin-top:10px;
+	margin-bottom:70px;
+}
+.noti-section .row {
+	margin-bottom:15px;
+}
+.main-body .row .noti-section .star-div{
+	position:relative;
+}
+
+.main-body .row .noti-section .star-div > a {
+	position:absolute;
+	right:10px;
+	font-size:2em;
+	color:rgba(100,100,100,1);
+}
+.main-body .noti-description p{
+	padding-right:10px;
+	margin-bottom:5px;
+	line-height:1.7;
+	color:rgba(40,40,40,1);
+}
+.main-body .noti-description a {
+	color:rgba(40,40,40,1);
+	font-weight:600;
+	font-size:1.1em;
+	padding-left:5px;
+	padding-right:10px;
+}
+
+.main-body .noti-description .reply a {
+	font-size:1em;
+	font-weight:500;
+	padding-right:15px;
+}
+.writing-comment{
+	margin-top:20px;
+	margin-left:20px;
+}
+.noti-description span.bordered-area{
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	display:block;
+	border:2px solid rgba(100,100,100,.5);
+	background-color:rgba(100,100,100,.1);
+	font-style:italic;
+}
+.noti-description span.imphesis{
+	font-style:italic;
+	background-color:rgba(100,100,100,.2);
+}
+
+footer .list-inline li i{
+	margin-right:5px;
+}
+footer .list-inline li{
+	padding:15px;
+}
+footer{
+	border-top:1px solid rgba(100,100,100,.5);
+}
+
+@media (max-width:376px){
+	.main-body .row .noti-section .star-div > a{
+		position:relative;
+		display:block;
+	}
+}
