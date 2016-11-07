@@ -1,3 +1,40 @@
+.Second-page{
+	position:fixed;
+	height:100px;
+	width:100%;
+	background-color:rgba(110,110,110,.95);
+	z-index:100;
+	top:0;
+	right:-90%;
+	transform:none;
+	transition:all 1.4s ease-out;
+}
+.fa-chevron-left{
+	float:left;
+	color:white;
+	padding-left:40px;
+	padding-right:40px;
+	font-size:2em;
+	line-height:100px;
+}
+.rotate-btn{
+	transform:rotateY(180deg);
+}
+.go-left{
+	right:0px;
+}
+.Second-page p a.btn-default{
+	color:black;
+}
+.Second-page p{
+	color:white;
+	font-size:1.3em;
+	line-height:100px;
+	text-align:center;
+}
+
+
+
 .navbar{
 	margin:0;
 	padding:0;
