@@ -1,0 +1,80 @@
+.navbar{
+	margin:0;
+	padding:0;
+	border-radius:0;
+	border:none;
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+.main h2{
+	text-align:center;
+	font-size:1.4em;
+	padding:25px;
+	border-bottom:1px solid rgba(100,100,100,.5);
+}
+.body-section {
+	border-bottom:1px solid rgba(100,100,100,.5);
+	margin-top:40px;
+	padding-bottom:40px;
+}
+.body-section h5{
+	font-size:1.2em;
+	text-align:center;
+	padding:5px;
+}
+.body-section a.btn{
+	background-color:white;
+	border:2px solid rgba(100,100,100,1);
+	color:black;
+	margin:0 auto;
+	display:block;
+	width:100px;
+}
+.body-section p{
+	text-align:center;
+	padding:5px;
+	font-size:1em;
+}
+.body-section i{
+	padding:5px;
+	font-size:4em;
+	text-align:center;
+	display:block;
+}
+.body-section h3{
+	font-size:2em;
+	text-align:center;
+	padding:10px;
+}
+
+.footer-area p.footer-main-para{
+	font-size:1em;
+	padding:20px;
+}
+.footer-area p.quoto {
+	font-size:1.3em;
+	padding:20px;
+	font-style:italic;
+	font-weight:bold;
+	
+}
+.footer-area p.quoto span.name{
+	display:block;
+	font-size:.9em;
+	padding:20px;
+	font-weight:300;
+	float:right;
+	margin-right:50px;
+}
+.footer-area h2{
+	font-size:2em;
+	text-align:center;
+	padding:10px;
+}
+footer .list-inline li{
+	padding:15px;
+}
+footer{
+	border-top:1px solid rgba(100,100,100,.5);
+}
