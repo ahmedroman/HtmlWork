@@ -1,0 +1,181 @@
+.navbar{
+	margin:0;
+	padding:0;
+	border-radius:0;
+	border:none;
+}
+h1,h2,h3,h4,h5,p{
+	color:#5C5B5C;
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+
+header{
+	margin-top:20px;
+	padding-bottom:5px;
+	border-bottom:1px solid rgba(100,100,100,.3);
+}
+header .header-aside a{
+	text-decoration:none;
+	color:#5C5B5C;
+	font-size:.9em;
+	letter-spacing:-.5px;
+}
+header .header-aside a i{
+	line-height:.5;
+	font-size:2.2em;
+	padding-right:10px;
+	position:relative;
+	bottom:-5px;
+}
+@media (min-width:993px){
+		header .header-aside a{
+		position:relative;
+		bottom:-15px;
+	}
+}
+header .main-header p i{
+	font-size:3em;
+	padding-right:30px;
+}
+header .main-header p{
+	display:inline-block;
+}
+header .main-header h4 span{
+	display:block;
+	font-size:.8em;
+	font-weight:400;
+}
+header .main-header h4{
+	font-size:1.35em;
+	display:inline-block;
+}
+.navigation-header .list-inline li{
+	font-weight:500;
+	padding-right:15px;
+}
+.navigation-header .list-inline{
+	margin-bottom:0;
+}
+.navigation-header{
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid rgba(100,100,100,.3);
+}
+
+
+/*Main Body*/
+
+.description-area{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.description-area .row{
+	margin-bottom:20px;
+}
+.vehicle-description-headline h3{
+	font-size:1.1em;
+	margin-bottom:10px;
+}
+.vehicle-description p{
+	line-height:1.6;
+	padding-right:20px;
+}
+.vehicle-description p span.border-left{
+	margin-left:15px;
+	padding-left:15px;
+	border-left:2px solid rgba(100,100,100,.5);
+}
+
+.vehicle-description > a{
+	font-weight:600;
+	color:black;
+	font-size:1.2em;
+	padding-bottom:15px;
+	display:inline-block;
+}
+
+.vehicle-description >.row > div >h3{
+	font-size:1.3em;
+	min-height:50px;
+}
+.vehicle-description >.row > div >h3>a{
+	font-size:.7em;
+	color:black;
+	font-weight:600;
+	margin-left:10px;
+}
+.vehicle-description >.row > div >p{
+	margin-bottom:20px;
+}
+.vehicle-description >.row > div >p>a{
+	color:black;
+	font-weight:600;
+}
+#vehicle-case.modal{
+	padding-right:0 !important;
+	margin: 0 auto;
+}
+#vehicle-case .modal-dialog{
+	width:100%;
+	border-radius:0;
+	min-height:400px;
+	margin:0;
+}
+#vehicle-case .modal-content{
+	border-radius:0;
+	width:100%;
+	min-height:400px;
+}
+
+#vehicle-case .modal-content .modal-header > a{
+	color:black;
+	padding-left:15px;
+	display:inline-block;
+}
+#vehicle-case .modal-content .modal-body >div>h3{
+	margin-top:20px;
+	font-size:1.4em;
+	padding-bottom:15px;
+}
+#vehicle-case .modal-content .modal-body >div >h5{
+	font-size:1.3em;
+	padding-bottom:15px;
+}
+#vehicle-case .modal-content .modal-body >div > p{
+	margin-top:15px;
+	line-height:1.4;
+}
+#vehicle-case .modal-content .modal-body >.left{
+	float:left;
+	line-height:250px;
+}
+#vehicle-case .modal-content .modal-body >.right{
+	float:right;
+	line-height:250px;
+}
+.fa.fa-angle-left,
+.fa.fa-angle-right{
+	font-size:4em;
+	color:black;
+}
+
+/*Footer*/
+
+footer .list-inline li i{
+	margin-right:5px;
+}
+footer .list-inline li{
+	padding:15px;
+}
+footer{
+	border-top:1px solid rgba(100,100,100,.5);
+}
+
+@media (max-width:376px){
+	.main-body .row .noti-section .star-div > a{
+		position:relative;
+		display:block;
+	}
+}
