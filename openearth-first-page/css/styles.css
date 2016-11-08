@@ -25,12 +25,12 @@
 }
 .Second-page p a.btn-default{
 	color:black;
+	margin-left:20px;
 }
 .Second-page p{
+	padding:15px;
 	color:white;
 	font-size:1.3em;
-	padding-top:10px;
-	padding-bottom:10px;
 	text-align:center;
 }
 
