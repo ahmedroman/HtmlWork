@@ -1,0 +1,78 @@
+.navbar{
+	margin:0;
+	padding:0;
+	border-radius:0;
+	border:none;
+}
+h1,h2,h3,h4,h5,p,label{
+	color:rgba(200,200,200,1);
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+
+.login-area{
+	width:400px;
+	margin:0 auto;
+	padding:50px;
+	background-color:#3D2C4B;
+	margin-top:50px;
+}
+
+.login-area h3{
+	padding-top:10px;
+	padding-bottom:40px;
+}
+.login-area h3 span{
+	padding-bottom:4px;
+}
+.login-area h3 span:first-child{
+	border-bottom:2px solid #FF4660;
+}
+.login-area h3 span:last-child{
+	float:right;
+}
+.login-area label{
+	display:block;
+}
+.login-area input[type="password"]:focus,
+.login-area input[type="text"]:focus,
+.login-area input[type="password"]:active,
+.login-area input[type="text"]:active{
+	background-color:rgba(0,0,0,.2);
+	/* border:none; */
+	outline:0;
+	color:white;
+}
+.login-area input[type="password"],
+.login-area input[type="text"]{
+	color:white;
+	width:100%;
+	border:none;
+	padding:8px 5px;
+	background-color:rgba(0,0,0,.1);
+	border-bottom:2px solid rgba(200,200,200,.7);
+	font-size:1.2em;
+	margin-bottom:20px;
+	transition:all .4s ease-out;
+}
+.login-area input[type="checkbox"]{
+	margin-bottom:20px;
+	padding:3px;
+}
+.login-area input[type="submit"]{
+	display:block;
+	width:100%;
+	border:0;
+	padding:8px;
+	background-color:#FF4660;
+	color:white;
+	transition:all .4s ease-out;
+}
+.login-area input[type="submit"]:hover{
+	background-color:rgba(256,256,256,.1);
+}
+.login-area p{
+	text-align:center;
+	padding:10px;
+}
